@@ -6,6 +6,7 @@ let formattedHTML = data;
 const links = [
   "https://discord.gg/hvNBnDKN",
   "https://drive.google.com/file/d/1Q0f-sU5jzK2pneHP3e9iZpeGQXT4Pao0/view",
+  "https://mailchi.mp/e97479f96b40/the-moon-is-in-the-wrong-place",
 ];
 
 let regex = /src=".+%.+?"/g;
