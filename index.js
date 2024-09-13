@@ -1,6 +1,6 @@
 const fs = require("fs");
 const images = fs.readdirSync("img");
-let data = fs.readFileSync("index.html", "utf8");
+let data = fs.readFileSync("input.html", "utf8");
 let formattedHTML = data;
 
 const links = [
@@ -42,10 +42,10 @@ for (var link in hrefMatches) {
 }
 
 // Step 3: Write the formatted HTML to a new file
-fs.writeFile("output.html", formattedHTML, (err) => {
+fs.writeFile("index.html", formattedHTML, (err) => {
   if (err) {
     console.error("Error writing the file:", err);
     return;
   }
-  console.log("Formatted HTML file has been saved as output.html");
+  console.log("Formatted HTML file has been saved as index.html");
 });
