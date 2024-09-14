@@ -1,6 +1,6 @@
 const fs = require("fs");
 const images = fs.readdirSync("img");
-let data = fs.readFileSync("input.html", "utf8");
+let data = fs.readFileSync("input.htm", "utf8");
 let formattedHTML = data;
 
 const links = [
