@@ -8,6 +8,10 @@ const links = [
   "https://drive.google.com/file/d/1Q0f-sU5jzK2pneHP3e9iZpeGQXT4Pao0/view",
   "https://mailchi.mp/e97479f96b40/the-moon-is-in-the-wrong-place",
   "https://www.shannonandtheclams.com/",
+  "https://youtu.be/LxHtq6m5YNk?si=kE-INy55beLCum7h",
+  "https://shannonandtheclams.merchtable.com",
+  "https://shannonandtheclams.merchtable.com/music/the-moon-is-in-the-wrong-place-vinyl-lp",
+  "https://youtu.be/VTKG7oHuY1k?si=NQLU8MxFMDg9ZdRq",
 ];
 
 let regex = /src=".+%.+?"/g;
